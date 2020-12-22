@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6102889602144355148}
   - component: {fileID: 6102889602143224204}
   - component: {fileID: 5750911105618474362}
+  - component: {fileID: 7239279579210163561}
   m_Layer: 10
   m_Name: Creep
   m_TagString: Untagged
@@ -91,3 +92,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.25681302, y: 0.7540119, z: 0.2256958}
   m_Center: {x: 0.0026867562, y: 0.37065837, z: 0.019444264}
+--- !u!95 &7239279579210163561
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6102889602141298508}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: c9a04a0202572e749861dcfe2d256bbc, type: 3}
+  m_Controller: {fileID: 9100000, guid: 0947177f267aba445935ac5001487ef1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

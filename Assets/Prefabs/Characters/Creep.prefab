@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3721923091636745491}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.94, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4146032458533408235}
@@ -46,6 +46,7 @@ GameObject:
   - component: {fileID: 2771399471280062555}
   - component: {fileID: 3179777015703362708}
   - component: {fileID: 114460215269591768}
+  - component: {fileID: 114445614826387168}
   m_Layer: 0
   m_Name: Creep
   m_TagString: Untagged
@@ -62,7 +63,7 @@ Transform:
   m_GameObject: {fileID: 4146032458533408231}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 15.34, y: 0, z: 29.2}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children:
   - {fileID: 4538500421014474376}
   - {fileID: 6377474106028669164}
@@ -195,6 +196,19 @@ MonoBehaviour:
   damageEffects: {fileID: 2180754341959426579, guid: 07be4cb955ba8cb40aeeb7fb351672a4,
     type: 3}
   dieEffect: {fileID: 0}
+--- !u!114 &114445614826387168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4146032458533408231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 593332600894d954cb2154c3cbd895c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  smoothness: 0.1
 --- !u!1 &5899978203374113013
 GameObject:
   m_ObjectHideFlags: 0
@@ -219,7 +233,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5899978203374113013}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.33, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4146032458533408235}
@@ -290,17 +304,17 @@ PrefabInstance:
     - target: {fileID: 6102889602140930924, guid: fd94a2d8a60a67f48b53358f74f27900,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6102889602140930924, guid: fd94a2d8a60a67f48b53358f74f27900,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6102889602140930924, guid: fd94a2d8a60a67f48b53358f74f27900,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6102889602141298508, guid: fd94a2d8a60a67f48b53358f74f27900,
         type: 3}

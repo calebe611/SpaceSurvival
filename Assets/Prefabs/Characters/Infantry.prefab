@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 422095316278060675}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.33, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7904610177145043869}
@@ -54,7 +54,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1034905536087796151}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2, z: 0}
+  m_LocalPosition: {x: 0, y: 4.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7904610177145043869}
@@ -76,6 +76,7 @@ GameObject:
   - component: {fileID: 8236668911440885293}
   - component: {fileID: 7904610177145043860}
   - component: {fileID: 7904610177145043863}
+  - component: {fileID: 114586291032524040}
   m_Layer: 0
   m_Name: Infantry
   m_TagString: Untagged
@@ -225,6 +226,19 @@ MonoBehaviour:
   enemyLayers:
   - Creep
   enemiesToAttack: []
+--- !u!114 &114586291032524040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7904610177145043857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 593332600894d954cb2154c3cbd895c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  smoothness: 0.1
 --- !u!1001 &4538337849830650079
 PrefabInstance:
   m_ObjectHideFlags: 0
